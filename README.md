@@ -1,7 +1,7 @@
 # GitScope — GitHub Repository Intelligence
 
 Search, inspect and compare public GitHub repositories using the live GitHub REST API (no token required).
-
+[**Live Demo**](https://gitscope-peach.vercel.app/) | [**Source Code**](https://github.com/jackosama139-code/GitScope)
 ## Features
 - **Explore**: search with GitHub qualifiers, language filter, sorting, pagination, example searches, recent-search history (rerun / clear).
 - **Repository details** (`/repo/:owner/:name`): stats, license, dates, topics, language chart with text summary, top contributors, recent commits, favorite toggle. Each section loads from its own endpoint and has its own error/retry state.
